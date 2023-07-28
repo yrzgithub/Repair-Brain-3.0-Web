@@ -4,9 +4,23 @@
     </head>
 
     <body>
+
+       <style>
+
+        .title 
+        {
+           text-align: center;
+           font-size: 100px;
+           margin-top: 5%;
+           margin-bottom: 10%;
+        }
+       </style>
+
+       <h1 class="title">Repair Brain</h1>
+
         <div style="text-align: center;">
-            <img width="50%" height="50%" src="static/free.jpg">
+            <img width="80%" style="padding-bottom: 20%;"  src="static/free.jpg" onclick="{{url_for('free')}}">
+            <img width="80%"  src="static/hand_cuffed.jpg">
         </div>
     </body>
-
 </html>
